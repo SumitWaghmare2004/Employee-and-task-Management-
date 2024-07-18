@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    padding: 0px 30px;
+    background: black;
+}
+
+.header h5 {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: hotpink;
+}
+
+.upper_box {
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    padding: 30px;
+
+
+}
+
+.upper_box .left_box {
+    width: 50%;
+    height: 100%;
+}
+
+.upper_box .left_box button,
+.upper_box .right_box button {
+    border: none;
+    outline: none;
+    background: red;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    margin: 0px 10px;
+
+}
+
+.upper_box .right_box {
+    width: 55%;
+    height: 100%;
+    /* display: flex; */
+}
+
+.upper_box .right_box i {
+    font-size: 20px;
+    color: black;
+    padding: 15x;
+
+}
+
+.upper_box .right_box input {
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.table-box {
+    width: 120%;
+    padding: 30px;
+}
+
+.table-box table {
+    width: 120%;
+
+}
+
+.table-box table tr th {
+    border: 1px solid #ccc;
+    padding: 10px 0px 0px;
+    font-family: Verdana;
+    font-size: bold;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.table-box table tr td {
+    border: 1px solid #ccc;
+    padding: 10px 0px 5px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: bold;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.table-box table tr td button {
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: turquoise;
+    font-size: 18px;
+    font-family: Verdana;
+    color: #fff;
+    margin: 0px 10px;
+    padding: 5px 0px;
+
+}
+
+.card .input-box {
+    text-align: left;
+
+}
+
+#sweetalert {
+    position: relative;
+    left: 300px;
+    top: 40px;
+    background-color: limegreen;
+    color: white;
+}
+
+#labels {
+    width: 100px;
+    font-family: sans-serif;
+    font-size: bold;
+    padding: 4px;
+}
+
+#Priority1 {
+    position: relative;
+    left: 100px;
+    width: 400px;
+}
+
+#Priority2 {
+    position: relative;
+    left: 100px;
+    width: 400px;
+}
+
+#Priority3 {
+    position: relative;
+    left: 100px;
+    width: 400px;
+}
+
+#Priority4 {
+    position: relative;
+    left: 100px;
+    width: 400px;
+}
+
+#Priority5 {
+    position: relative;
+    left: 100px;
+    width: 400px;
+}
+
+#Priority6 {
+    position: relative;
+    left: 100px;
+    width: 400px;
+}
+
+#Priority7 {
+    position: relative;
+    left: 100px;
+    width: 400px;
+}
+
+
+#taskPriority {
+    width: 140px;
+    margin-left: 100px;
+
+}
+
+
+.card-body {
+    visibility: hidden;
+    opacity: 1;
+    z-index: -1;
+    background-color: #239bff;
+    width: 690px;
+    height: 450px;
+    padding: auto;
+    text-align: left;
+    border-radius: 50px;
+}
+
+
+#addBtn:hover {
+    filter: drop-shadow(0 0 5px);
+    overflow: hidden;
+    display: block;
+    transition-delay: 0.5s;
+    background: #239bff;
+    color: #255784;
+    box-shadow: 0 0 20px #239bff,
+        0 0 80px #239bff,
+        0 0 160px #239bff,
+        0 0 32px #239bff,
+}
+
+#search-btn:hover {
+
+    filter: drop-shadow(0 0 5px);
+    overflow: hidden;
+    transition-delay: 0.5s;
+    background: #239bff;
+    color: #255784;
+    box-shadow: 0 0 20px #239bff,
+        0 0 80px #239bff,
+        0 0 160px #239bff,
+        0 0 32px #239bff,
+}
+
+.table-wrapper {
+    height: auto;
+    overflow: auto;
+}
+
+
+
+
+
+
+/* .model{
+    width: 60%;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aqua;
+    display: flex; 
+} */
+/* }
+.model .left-model{
+    width: 30%;
+    height: 100%;
+    background-color: green;
+    border-right: 10px groove black;
+} */
+/* 
+.model .right-model{
+    width: 100%;
+    height: 100%;
+    background-color: #4286F5;
+    padding: 30px;
+}  */
+
+
+/* .card .input-box{
+    width: 30%;
+    height: 80px;
+    justify-content:space-between ;
+    display: flex;
+    padding: 30px;
+
+} */
+/* .model .input-box label{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    padding: 15px;
+} */
